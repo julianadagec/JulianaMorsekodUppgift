@@ -49,7 +49,8 @@ public class Translator {
     }
 
 
-    // Har skapat ett antal metoder nedan:
+    // Har skapat metoder nedan för översättning åt båda hållen
+
 
     // Översättning av en text till morsekod
 

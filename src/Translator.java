@@ -69,7 +69,7 @@ public class Translator {
         return morseCode; // returnerar den översatta morsekoden
     }
 
-    // Översättning av en morsekod till en bokstav
+    // Översättning av en morsekod till text
 
     public String getLetterFromMorse(String inputMorse) {
         String[] morseSymbols = inputMorse.split(" ");  // delar upp morsekoden separerade symboler med mellanslag för annars hittas de inte i hashmapen

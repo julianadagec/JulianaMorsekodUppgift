@@ -14,7 +14,7 @@ public class Tests {
         assertEquals(expected, result);
     }
 
-    // Testar om översättning från engelska till morsekod fungerar korrekt
+    // Testar om översättning från text till morsekod fungerar korrekt
     @Test
     void testTextToMorse() {
         Translator textToMorse = new Translator();
@@ -24,7 +24,7 @@ public class Tests {
         assertEquals(expected, result);
     }
 
-    //Testar om översättning från  morsekod till engelska fungerar korrekt
+    //Testar om översättning från  morsekod till text fungerar korrekt
     @Test
     void testMorseToText() {
         Translator morseToText = new Translator();
@@ -34,7 +34,7 @@ public class Tests {
         assertEquals(expected, result);
     }
 
-    // Testar om felaktiga Engelska icke giltiga tecken fångas upp med felmeddelande
+    // Testar om felaktiga text med icke giltiga tecken fångas upp med felmeddelande
     @Test
     void testInvalidText() {
         Translator textToMorse = new Translator();

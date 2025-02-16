@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
         // Skapar ett objekt av min logiklass Translator för att kunna anropa metoderna därifrån
         Translator translator = new Translator();
